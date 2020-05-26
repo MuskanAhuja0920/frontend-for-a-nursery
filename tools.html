@@ -1,0 +1,468 @@
+<html>
+    <head>
+	<style>
+	#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index:10;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+#nav-bar ul li a:hover
+{
+	color: #007bff;
+}
+.navbar
+{
+	background: #E8EFEF;
+}
+.navbar-toggler
+{
+	border:none;
+}
+.nav-link
+{
+	color: #555;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.dropdown-item
+{
+	font-style: italic;
+	font-size: 14px;
+}
+/*--------slider--------*/
+#slider
+{
+	width:100%;
+}
+
+
+/*------------Plants------------*/
+#Plants {
+	padding-top:0px;
+	
+	color: #555;
+
+}
+img.round
+{
+	border-radius: 10%;
+}
+h1{
+background: #33FFFF;
+}
+.pictures
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+/*--------------Seeds------------------*/
+#Seeds
+{
+	padding-top:5px;
+}
+/*------------Garden Decor------------------*/
+#Decor
+#
+{
+	padding-top:5px;
+}
+/*------------Budget Buy------------------*/
+#Buy
+{
+	padding-top:5px;
+}	
+/*------------Contact Us------------------*/
+#Contact
+{
+	padding-top:5px;
+	padding-bottom: 50px;
+	background: #FFF;
+	margin-bottom:30px;
+}	
+/*--------icons-----------*/
+#icons{
+	padding-top: 30px;
+	background: #CFD7D7;
+}
+/*-----------------About---------------*/
+#about
+{
+	padding-top:5px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about .btn{
+	margin-top: 20px;
+	margin-bottom:30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+
+.skills-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius: 16px;
+}
+.progree
+{
+	border-radius:16px;
+margin-bottom: 20px;}
+#footer  {
+    position: fixed;
+    bottom: 10px;
+    width: 20%;
+	
+	
+}
+
+/*------------tool css------------*/
+
+.tool{
+    margin: 50px 0;
+}
+
+.tool img{
+    width: 280px;
+	height:280px;
+    padding: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.plant-top {
+  position: relative;
+  width: 50%;
+}
+
+.round{  opacity: 1;
+  display: block;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  text-align: left;
+}
+
+.plant-top:hover .round {
+  opacity: 0.3;
+}
+
+.plant-top:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+#footer  {
+    position: fixed;
+    bottom: 10px;
+    width: 18%;
+	
+	
+}
+</style>
+
+
+<title>LIVE NURSERY</title>
+		  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+</head>
+  <body>
+  <!----Navigation----->
+  <section id="nav-bar1">
+   <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="#"><img src="https://scontent.fpnq3-1.fna.fbcdn.net/v/t1.0-9/80877596_102568437931790_8092189255813562368_n.png?_nc_cat=103&_nc_ohc=xb0cXoHT3MAAQl_uwQr52TCxJYfDVKGOrhK9bmGwe9xzkPWfg8P42VZyw&_nc_ht=scontent.fpnq3-1.fna&oh=2040159948c404d6228b851ad808965d&oe=5E67E689" style="height:60px" ></a>
+          <form class="form-inline my-2 my-lg-0" id="navBarSearchForm">
+           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:520px" >
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+ 
+  
+		
+          <ul class="navbar-nav ml-auto" >
+          
+          
+		  <a class="nav-link" href="index.php" align="right" >LOGIN</a>
+		
+		  
+		  
+            <a class="nav-link" href="cart.html" align="right"><button type="button" class="btn btn-secondary" title="cart">    
+              <i class="fa fa-shopping-cart"></i>
+              </button></a>
+			 
+          </ul>
+		  
+		  </nav>
+		  </section>
+  <section id="nav-bar">
+       
+      <nav class="navbar navbar-expand-lg navbar-light ">
+          
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          
+          <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto" >
+          
+          <li class="nav-item"  >
+              <a class="nav-link" href="try.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          
+          
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PLANTS
+              </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="floweringplants.html">Flowering Plants</a>
+            <a class="dropdown-item" href="fruitplants.html">Fruit Plants</a>
+            <a class="dropdown-item" href="indoorplants.html">Indoor Plants</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="top10plants.html">Top 10</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SEEDS
+              </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="vegetableseeds.html">Vegetable Seeds</a>
+            <a class="dropdown-item" href="flowerseeds.html">Flower Seeds</a>
+            <a class="dropdown-item" href="lawngrass.html">Lawn Grass Seeds</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="kit.html">Garden Kits</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              GARDEN DECOR
+              </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="birdhouse.html">Bird Houses</a>
+            <a class="dropdown-item" href="fountain.html">Garden Fountains</a>
+            <a class="dropdown-item" href="tools.html">Garden Tools</a>
+            
+            <a class="dropdown-item" href="pebble.html">Pebbles</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              BUDGET BUY
+              </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="under199.html">Plants Under 199</a>
+            <a class="dropdown-item" href="btw200.html">Plants Between 200 To 499</a>
+            <a class="dropdown-item" href="btw599.html">Plants Between 500 To 999</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="moneyvalue.html">Value For Money Pack</a>
+          </div>
+        </li>
+        
+         <li class="nav-item">
+						<a class="nav-link" href="contact.html">CONTACT US</a>
+					</li>
+        
+          <li class="nav-item">
+						<a class="nav-link" href="about.html">ABOUT US</a>
+					</li>
+
+				</ul>
+				
+      </ul>
+      
+      
+    </div>
+  </nav>
+ </section>
+
+  <!-----------tool---------->
+
+  <section id="tool">
+    <div class="container">
+        <h1 align="left">Garden Tools<br></h1>
+        <div class="row">
+            <div class="col-md-4">
+               <div class="plant-top">
+                      <a  href="#"><img src="decor/digging-spade.jpg" class="round" ></a>
+					  <div class="middle">
+					  <div class="text">
+					  <p>These specially designed tools are perfect to maintain a healthy and attractive garden.</div>
+                        
+						
+						</div>
+						</div>
+                        <div class="overlay-right">
+                               <button type="button" class="btn btn-secondary" title="add to cart">
+                                     <i class="fa fa-shopping-cart"></i>
+                                </button>
+                         </div>
+                         <div class="plant-bottom">
+                               <h4>Digging-Spade</h4>
+                               <h5>Rs.499/-</h5>
+                         </div>
+                </div>
+            
+
+            <div class="col-md-4">
+                <div class="plant-top">
+                       <a  href="#"><img src="decor/fork-plain.jpg" class="round" ></a>
+					   <div class="middle">
+					  <div class="text">
+					  <p>These specially designed tools are perfect to maintain a healthy and attractive garden.</div>
+                        
+						
+						</div>
+						</div>
+                         <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="add to cart">
+                                      <i class="fa fa-shopping-cart"></i>
+                                 </button>
+                          </div>
+                          <div class="plant-bottom">
+                                <h4>Fork-Plain</h4>
+                                <h5>Rs.125/-</h5>
+                          </div>
+                 </div>
+             
+
+             <div class="col-md-4">
+                <div class="plant-top">
+                       <a  href="#"><img src="decor/gardenkit.jpg"  class="round" ></a>
+					   <div class="middle">
+					  <div class="text">
+					  <p>These specially designed tools are perfect to maintain a healthy and attractive garden.</div>
+                        
+						
+						</div>
+						</div>
+                         <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="add to cart">
+                                      <i class="fa fa-shopping-cart"></i>
+                                 </button>
+                          </div>
+                          <div class="plant-bottom">
+                                <h4>Garden-Basic-Toolkit</h4>
+                                <h5>Rs.950/-</h5>
+                          </div>
+                 </div>
+             </div>
+           
+         
+         <div class="row">
+            <div class="col-md-4">
+               <div class="plant-top">
+                      <a  href="#"><img src="decor/hand-trowel.jpg" class="round" ></a>
+					  <div class="middle">
+					  <div class="text">
+					  <p>These specially designed tools are perfect to maintain a healthy and attractive garden.</div>
+                        
+						
+						</div>
+						</div>
+                        <div class="overlay-right">
+                               <button type="button" class="btn btn-secondary" title="add to cart">
+                                     <i class="fa fa-shopping-cart"></i>
+                                </button>
+                         </div>
+                         <div class="plant-bottom">
+                               <h4>Handtrowel</h4>
+                               <h5>Rs.125/-</h5>
+                         </div>
+                </div>
+            
+
+            <div class="col-md-4">
+                <div class="plant-top">
+                       <a  href="#"><img src="decor/transplanting-trowel.jpg" class="round" ></a>
+					   <div class="middle">
+					  <div class="text">
+					  <p>These specially designed tools are perfect to maintain a healthy and attractive garden.</div>
+                        
+						
+						</div>
+						</div>
+                         <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="add to cart">
+                                      <i class="fa fa-shopping-cart"></i>
+                                 </button>
+                          </div>
+                          <div class="plant-bottom">
+                                <h4>Transplanting-Trowel</h4>
+                                <h5>Rs.136/-</h5>
+                          </div>
+                 </div>
+             
+
+             <div class="col-md-4">
+                <div class="plant-top">
+                       <a  href="#"><img src="decor/wateringcan.jpg" class="round" ></a>
+					   <div class="middle">
+					  <div class="text">
+					  <p>These specially designed tools are perfect to maintain a healthy and attractive garden.</div>
+                        
+						
+						</div>
+						</div>
+                         <div class="overlay-right">
+                                <button type="button" class="btn btn-secondary" title="add to cart">
+                                      <i class="fa fa-shopping-cart"></i>
+                                 </button>
+                          </div>
+                          <div class="plant-bottom">
+                                <h4>Watering Can</h4>
+                                <h5>Rs.350/-</h5>
+                          </div>
+                 </div>
+             </div>
+
+             
+        </div>
+           
+    </div>
+  </section>
+  <section id="about">
+			<a href="https://api.whatsapp.com/send?phone="><img style="position:fixed;  left: 900px;" src="https://cdn.nurserylive.com/images/nurserylive-whatsup-img.png" id="footer" class="round"></a>
+			</section>
+  </body>
+  </html>

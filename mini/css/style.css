@@ -1,0 +1,66 @@
+#main_box{
+	width:500px;
+	margin:0 auto ;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+}
+
+.image11{
+	width:100px;
+	text-aling:center;
+	border_radius:50%;
+}
+
+.form11{
+	width:450px;
+	margin:0 auto ;
+}
+
+.inputvalues{
+	width:430px;
+	margin:0 auto ;
+	
+	padding:5px;
+}
+
+#login_button{
+	magin-top:10px;
+	margin-bottom:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:430px;
+	text-aling:center;
+	font-size:18px;
+}
+
+#register_button{
+	magin-top:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:430px;
+	text-aling:center;
+	font-size:18px;
+}
+
+#signup_button{
+	magin-top:10px;
+	margin-bottom:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:430px;
+	text-aling:center;
+	font-size:18px;
+}
+#back_button{
+	magin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:130px;
+	text-aling:center;
+	font-size:18px;
+}

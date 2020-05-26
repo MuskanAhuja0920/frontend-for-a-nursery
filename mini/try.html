@@ -1,0 +1,531 @@
+<html>
+    <head>
+	<style>
+	#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index:10;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+#nav-bar ul li a:hover
+{
+	color: #007bff;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border:none;
+}
+.nav-link
+{
+	color: #555;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.dropdown-item
+{
+	font-style: italic;
+	font-size: 14px;
+}
+
+/*--------slider--------*/
+#slider
+{
+	width:100%;
+}
+
+
+/*------------Plants------------*/
+#Plants {
+	padding-top:50px;
+	
+	color: #555;
+
+}
+img.round
+{
+	border-radius: 10%;
+}
+h1{
+background: #33FFFF;
+}
+.pictures
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+/*--------------Seeds------------------*/
+#Seeds
+{
+	padding-top:5px;
+}
+/*------------Garden Decor------------------*/
+#Decor
+#
+{
+	padding-top:5px;
+}
+/*------------Budget Buy------------------*/
+#Buy
+{
+	padding-top:5px;
+}	
+/*------------Contact Us------------------*/
+#Contact
+{
+	padding-top:5px;
+	padding-bottom: 50px;
+	background: #FFF;
+	margin-bottom:30px;
+}	
+/*--------icons-----------*/
+#icons{
+	padding-top: 30px;
+	background: #CFD7D7;
+}
+/*-----------------About---------------*/
+#about
+{
+	padding-top:5px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about .btn{
+	margin-top: 20px;
+	margin-bottom:30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+
+.skills-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius: 16px;
+}
+.progree
+{
+	border-radius:16px;
+margin-bottom: 20px;}
+#footer  {
+    position: fixed;
+    bottom: 10px;
+    width: 20%;
+	
+	
+}
+</style>
+	      <title>LIVE NURSERY</title>
+		  
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+		  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+		  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    </head>
+			<body>
+			<!----Navigation----->
+			<section id="nav-bar">
+			     
+				<nav class="navbar navbar-expand-lg navbar-light ">
+					<a class="navbar-brand" href="#"><img src="https://scontent.fpnq3-1.fna.fbcdn.net/v/t1.0-9/80877596_102568437931790_8092189255813562368_n.png?_nc_cat=103&_nc_ohc=xb0cXoHT3MAAQl_uwQr52TCxJYfDVKGOrhK9bmGwe9xzkPWfg8P42VZyw&_nc_ht=scontent.fpnq3-1.fna&oh=2040159948c404d6228b851ad808965d&oe=5E67E689" style="height:60px" ></a>
+					<form class="form-inline my-2 my-lg-0">
+				     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				    </form>
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					
+					<div class="collapse navbar-collapse"  id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto" >
+					
+					<li class="nav-item"  >
+						<a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+					</li>
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						PLANTS
+						</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">Flowering Plants</a>
+					  <a class="dropdown-item" href="#">Fruit Plants</a>
+					  <a class="dropdown-item" href="#">Indoor Plants</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Top 10</a>
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						SEEDS
+						</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">Vegetable Seeds</a>
+					  <a class="dropdown-item" href="#">Flower Seeds</a>
+					  <a class="dropdown-item" href="#">Lawn Grass Seeds</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Garden Kits</a>
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						GARDEN DECOR
+						</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">Bird Houses</a>
+					  <a class="dropdown-item" href="#">Garden Fountains</a>
+					  <a class="dropdown-item" href="#">Garden Tools</a>
+					  
+					  <a class="dropdown-item" href="#">Pebbles</a>
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						BUDGET BUY
+						</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">Plants Under 199</a>
+					  <a class="dropdown-item" href="#">Plants Between 200 To 499</a>
+					  <a class="dropdown-item" href="#">Plants Between 500 To 999</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Value For Money Pack</a>
+					</div>
+				  </li>
+				  
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACT US</a>
+					</li>
+				</ul>
+				
+				
+			  </div>
+			</nav>
+			</section>
+			<!--------Slider-------->
+			<div id="slider">
+			<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-table-top-office-desk-plants-for-removing-indoor-toxins7_600x600.jpg" style="height:570px" class="d-block w-100" alt="...." >
+      <div class="carousel-caption">
+	  <h5>Office Desk Plants For Removing Indoor Toxins
+	  </h5>
+	  </div>
+	</div>
+	
+    <div class="carousel-item">
+      <img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-alluring-lucky-bamboo-for-ac-office-desk_600x600.jpg" style="height:570px" class="d-block w-100" >
+       <div class="carousel-caption">
+	  <h5>2 Layer Lucky Bamboo for AC Office Desk
+	  </h5>
+	  </div>
+	</div>
+    <div class="carousel-item">
+      <img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-tulip-seadov-red-bulbs_600x600.jpg" style="height:570px" class="d-block w-100" >
+      <div class="carousel-caption">
+	  <h5>Tulip Seadov (Red)
+	  </h5>
+	  </div>   
+	  </div>
+	   <div class="carousel-item">
+      <img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-money-plant-marble-prince-in-paper-wrap-gift-pack4_600x600.jpg" style="height:570px" class="d-block w-100" >
+       <div class="carousel-caption">
+	  <h5>Money Plant(Gift Pack)
+	  </h5>
+	  </div>
+	</div>
+    <div class="carousel-item">
+      <img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-marble-chips-pebbles-white-1-kg1_600x600.jpg" style="height:570px" class="d-block w-100" >
+      <div class="carousel-caption">
+	  <h5>Marble Chip Pebbles
+	  </h5>
+	  </div>   
+   </div>
+     <div class="carousel-item">
+      <img src="data:image/webp;base64,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" style="height:570px" class="d-block w-100" >
+       <div class="carousel-caption">
+	  <h5>Garden Fountains
+	  </div>
+	</div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+			</div>
+			<!------------Plants----------->
+			<section id="Plants">
+			<div class="container">
+			<h1 align="left">Buy Plants By Category<br></h1>
+				<div class="row">
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-tube-rose-double-plant_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Top 10 Plants</p></a>
+					 </div>
+					 </div>
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-Miniature-Rose-Button-Rose-Baby-Pink-Plant_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Flowering Plants</p></a>
+					 </div>
+					 </div>
+					 <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-hapus-mango_600x600.jpg" style="height:270px" class="round" ><br><p align="center" >Fruit Plants</p></a>
+					 </div>
+					 </div>
+					<div class="col-md-3">
+					<div class="pictures">
+					 <a  align="center" href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-jade-plant-elephant-bush-small-1_600x600.jpg" style="height:270px" class="round"><br><p align="center">Indoor Plants</p></a>
+					 </div>
+					 </div>
+					 </div>
+					 <div class="row">
+				     <div class="col-md-6">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://www.plantsguru.com/image/cache/catalog/banner/winter--flower-seeds-756x425.jpg" style="height:310px" class="round" ><br><p align="center"></p></a>
+					 </div>
+					 </div>
+					 <div class="col-md-6">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://www.plantsguru.com/image/cache/catalog/banner/winter--veg-seeds-offer-800x450.png" style="height:310px" class="round"><br><p align="center"></p></a>
+					 </div>
+					 </div>
+					 </div>
+				</div>
+				<!------------SEEDS----------->
+			<section id="Seeds">
+			<div class="container">
+			<h1 align="left">Seeds<br></h1>
+				<div class="row">
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-capsicum-green_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Vegetable Seeds</p></a>
+					 </div>
+					 </div>
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-cosmos-orange_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Flower Seeds</p></a>
+					 </div>
+					 </div>
+					 <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/mexican-grass-lawn_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Lawn Grass Seeds</p></a>
+					 </div>
+					 </div>
+					<div class="col-md-3">
+					<div class="pictures">
+					 <a  align="center" href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-best-5-indigenous-microgreen-seeds-kitchen-garden-pack2_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Garden Kits</p></a>
+					 </div>
+					 </div>
+					 </div>
+				</div>
+				<!------------Garden Decor----------->
+			<section id="Decor">
+			<div class="container">
+			<h1 align="left">Garden Decor<br></h1>
+				<div class="row">
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://www.plantsguru.com/image/cache/catalog/category/bird's-house-175x175.jpg" style="height:270px" class="round" ><br><p align="center">Bird Houses</p></a>
+					 </div>
+					 </div>
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://www.plantsguru.com/image/cache/garden-tools/garden-fountain/garden-fountain-with-monk-buddha-polyresin-800x800.jpeg" style="height:270px" class="round" ><br><p align="center">Garden Fountains</p></a>
+					 </div>
+					 </div>
+					 <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://www.plantsguru.com/image/cache/metal-planter/pg-floral-yellow-hand-painted-water-can-800x800.JPG" style="height:270px" class="round" ><br><p align="center" >Garden Tools</p></a>
+					 </div>
+					 </div>
+					<div class="col-md-3">
+					<div class="pictures">
+					 <a  align="center" href="#"><img src="https://www.plantsguru.com/image/cache/data/Pebbles/plantsguru-big-pebbles-white-800x800.jpg" style="height:270px" class="round"><br><p align="center">Pebbles</p></a>
+					 </div>
+					 </div>
+					 </div>
+					
+				</div>
+				<!------------Budget Buy----------->
+			<section id="Buy">
+			<div class="container">
+			<h1 align="left">Budget Buy<br></h1>
+				<div class="row">
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-tecoma-shurb-any-color-plant_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Plants Under 199</p></a>
+					 </div>
+					 </div>
+				     <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-zephyranthes-grandiflora-rain-lily-any-color-plant8_600x600.jpg" style="height:270px" class="round" ><br><p align="center">Plants Between 200-499</p></a>
+					 </div>
+					 </div>
+					 <div class="col-md-3">
+					 <div class="pictures">
+					 <a  href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-air-plant-tillandsia-caput-medusae-large-plant_600x600.jpg" style="height:270px" class="round" ><br><p align="center" >Plants Between 500-999</p></a>
+					 </div>
+					 </div>
+					<div class="col-md-3">
+					<div class="pictures">
+					 <a  align="center" href="#"><img src="https://cdn.nurserylive.com/images/stories/virtuemart/product/resized/nurserylive-set-of-6-beautiful-dianthus-2_600x600.jpg" style="height:270px" class="round"><br><p align="center">Value For Money</p></a>
+					 </div>
+					 </div>
+					 </div>
+					
+				</div>
+				
+			
+			<!-------About------->
+			<section id="about">
+			<div class="container">
+			<h1 align="left">About Us<br></h1>
+				<div class="row">
+					<div class="col-md-6">
+					
+					<div class="about-content">
+					<p align="left">Gardens have been an indispensable part of our homes, more so now, ever than before – thanks to the need of the hour to create greener spaces around us and our wish to live close to nature.
+
+					Well, Gardening is not just about having a few plants in our backyard. It’s an art of cultivating plants, a passionate hobby for many, to curate different plants that add to the beauty of our homes.
+
+					Live Nursery, an online nursery  is India’s largest online nursery, that has grown immensely in a short span of time, incurring high volume of sales and building a huge customer base.
+
+					Headquartered in Pune, this online market for gardening products sells more than 5000 stock keeping units (SKUs) of plants, seeds and garden accessories, all available at a single place.
+					<br></p>
+                   <button type="button" class="btn btn-info btn btn-primary btn-xs">Read More</button>
+					</div>
+					</div>
+					<div class="col-md-6 skills-bar">
+					<p>Value For Money</p>
+					<div class="progrees">
+					<div class="progress-bar" style="width:90%;">90%</div>
+					</div>
+					<p>Best Deals</p>
+					<div class="progrees">
+					<div class="progress-bar" style="width:82%;">82%</div>
+					</div>
+					<p>Exotic Plants</p>
+					<div class="progrees">
+					<div class="progress-bar" style="width:56%;">56%</div>
+					</div>
+					<p>Customer Satisfaction</p>
+					<div class="progrees">
+					<div class="progress-bar" style="width:89%;">89%</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<!-------Our Team------->
+			<section id="Team">
+			<div class="container">
+			<h1 align="left">Our Team<br></h1>
+			</div>
+			
+			<!-----------ICONS----------->
+			<section id="Icons">
+			<div class="container">
+			
+			<div class="row">
+				     <div class="col-md-3 text-center">
+					 <div class="icon">
+					 <i class="fa fa-credit-card-alt" ></i>
+					 <h4 align="center"> Secure Payment</h4>
+					 <p align="center">100% Secure Payment </p>                
+										
+					 </div>
+					 </div>
+					
+					 <div class="col-md-3 text-center">
+					 <div class="icon">
+					 <i class="fa fa-truck" ></i>
+					 <h4 align="center"> Free Shipping</h4>
+					 <p align="center">For Orders Above Rs.299</p>
+					                
+										
+					 </div>
+					 </div>
+					  <div class="col-md-3 text-center">
+					 <div class="icon">
+					 <i class="fa fa-pagelines" ></i>
+					 <h4 align="center">Online Nursery</h4>
+					 <p align="center">India's 1 Plant Shop</p>
+					                
+										
+					 </div>
+					 </div>
+					  <div class="col-md-3 text-center">
+					 <div class="icon">
+					 
+					 <h4 align="center">Show us some love on social media</h4>
+					 <a  class="fa fa-facebook-official" href="https://www.facebook.com/Live-Nursery-102566874598613/?modal=admin_todo_tour" ></a>
+					 <a href="https://www.instagram.com/live.nursery/" class="fa fa-instagram" ></a>             
+					 <a href="https://twitter.com/LiveNursery" class="fa fa-twitter-square" ></a>        
+                     <a href="https://in.pinterest.com/muskan0010/" class="fa fa-pinterest" ></a>  					 
+					 </div>
+					 </div>
+					 
+					 </div>
+					 </div>
+					 <!-------Contact Us------->
+			<section id="Contact">
+			<div class="container">
+			<h1 align="left">Contact Us<br></h1>
+			<p>For any suggestions, queries, complaints, etc, Please contact us at<br></p>
+			<div class="row">
+				     <div class="col-md-4 text-center">
+					 <a href="https://www.google.co.in/maps/dir//mit+wpu/@18.517751,73.7798629,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2bfb9e53a05f9:0x2be5e8da02be693e!2m2!1d73.8148826!2d18.5177542" class="fa fa-map-marker" >Live Nursery,Pune</a> 
+					 </div>
+					 <div class="col-md-4 text-center">
+            <a href="mailto:livenursery0202@gmail.com? subject="subject text"" class="fa fa-envelope"  >livenursery0202@gmail.com</a>  
+            </div>
+			<div class="col-md-4 text-center">
+			<a href="https://api.whatsapp.com/send?phone=+918604270768" class="fa fa-mobile" >Whatsapp: 9876534569</a> 	
+</div>
+</div>			
+			</div>
+			<!-----------Buttons----------->
+			
+			
+			<section id="about">
+			<a href="https://api.whatsapp.com/send?phone=+918604270768"><img style="position:fixed;  left: 900px;" src="https://cdn.nurserylive.com/images/nurserylive-whatsup-img.png" id="footer" class="round"></a>
+			</section>
+			
+					 
+			</body>
+			
+			
+</html>
